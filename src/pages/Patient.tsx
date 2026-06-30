@@ -968,7 +968,7 @@ export default function Patient() {
                       </div>
                       <div className="space-y-2">
                         {[
-                          "Avoid overstraining/weight-bearing early",
+                          "Avoid overstraining or early weight-bearing",
                           "Do not take medicines unless prescribed",
                           "Avoid massage or hot pack on the area",
                           "Avoid very hot baths",
@@ -1000,7 +1000,7 @@ export default function Patient() {
                         <span className="text-sm font-bold text-slate-900">Do’s</span>
                       </div>
                       <div className="space-y-2">
-                        {["Gradually return to normal activities", "Follow rehab plan recommended by your doctor"].map((x, i) => (
+                        {["Gradually return to normal activities", "Follow the rehab plan recommended by your doctor"].map((x, i) => (
                           <div key={i} className="flex items-start gap-3 text-sm text-slate-700">
                             <div className="mt-1.5 h-2 w-2 flex-none rounded-full bg-emerald-600" />
                             <span>{x}</span>
@@ -1015,7 +1015,7 @@ export default function Patient() {
                         <span className="text-sm font-bold text-slate-900">Don’ts</span>
                       </div>
                       <div className="space-y-2">
-                        {["Avoid smoking and alcohol (first 7 days)", "Avoid aggressive exercise unless advised"].map((x, i) => (
+                        {["Avoid smoking and alcohol for the first 7 days", "Avoid aggressive exercise unless advised by your doctor"].map((x, i) => (
                           <div key={i} className="flex items-start gap-3 text-sm text-slate-700">
                             <div className="mt-1.5 h-2 w-2 flex-none rounded-full bg-rose-600" />
                             <span>{x}</span>
