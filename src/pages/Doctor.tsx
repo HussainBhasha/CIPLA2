@@ -491,7 +491,7 @@ export default function Doctor() {
 
               <div>
                 <div className="font-display text-4xl font-semibold tracking-[-0.03em] text-slate-900 sm:text-5xl">
-                  <RevealWords text="The Future of Orthopaedic Regenerative therapy" active={orthoInView} />
+                  <RevealWords text="The Future of Orthopaedic Regenerative Therapy" active={orthoInView} />
                 </div>
                 <p className={cn("mt-4 text-sm leading-relaxed text-slate-600 sm:text-base reveal-fade", orthoInView && "reveal-fade-visible")}>
                   Orthobiologics use biological substances and cellular therapies to support tissue repair, healing and restoration.
@@ -499,8 +499,8 @@ export default function Doctor() {
 
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">
                   {[
-                    { title: "Blood Derived Therapies", items: ["PRP", "GFC", "ACS"] },
-                    { title: "Cell Based Therapies", items: ["Mesenchymal Stem Cells"] },
+                    { title: "Blood-Derived Therapies", items: ["PRP", "GFC", "ACS"] },
+                    { title: "Cell-Based Therapies", items: ["Mesenchymal Stem Cells"] },
                   ].map((card, idx) => (
                     <div
                       key={card.title}
@@ -537,12 +537,12 @@ export default function Doctor() {
                   <RevealWords text="Ciplostem — Advanced Cellular Therapy" active={techInView} />
                 </div>
                 <p className={cn("mt-4 max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base reveal-fade", techInView && "reveal-fade-visible")}>
-                  Ciplostem is an adult human bone marrow-derived, expanded, cultured and pooled allogenic mesenchymal stromal cell therapy.
+                  Ciplostem is an adult human bone marrow-derived, expanded, cultured, and pooled allogeneic mesenchymal stromal cell therapy.
                 </p>
 
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">
                   {[
-                    "Allogenic MSC Technology",
+                    "Allogeneic MSC Technology",
                     "Standardized Cell Preparation",
                     "GMP Manufacturing",
                     "Off-the-Shelf Availability",
@@ -596,7 +596,7 @@ export default function Doctor() {
 
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">
                   {[
-                    { title: "🧬 Self Renewal", text: "Maintains cell population" },
+                    { title: "🧬 Self-Renewal", text: "Maintains cell population" },
                     { title: "🔬 Differentiation", text: "Supports tissue repair" },
                     { title: "🛡 Immunomodulation", text: "Helps regulate inflammatory response" },
                     { title: "🔥 Anti-inflammatory Action", text: "Supports inflammatory balance" },
@@ -674,7 +674,7 @@ export default function Doctor() {
                     },
                     {
                       key: "support-cartilage",
-                      title: "Support Cartilage Environment",
+                      title: "Support the Cartilage Environment",
                       icon: "🦵",
                       iconLabel: "Cartilage protection",
                       description:
